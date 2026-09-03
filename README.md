@@ -1,4 +1,4 @@
-# Havenix — Sistema de Login Moderno
+# Sistema de Login Moderno
 
 Sistema de autenticação desktop com interface moderna, desenvolvido em Python com CustomTkinter. Conta com telas de login e cadastro, persistência local de usuários e feedback visual customizado (sem os message boxes padrão do Tkinter).
 
