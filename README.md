@@ -23,31 +23,32 @@ Sistema de autenticação desktop com interface moderna, desenvolvido em Python 
 ## 📁 Estrutura do projeto
 
 ```
-src/
-├── main.py                    # Ponto de entrada da aplicação
-├── config/
-│   └── paths.py                # Caminhos de assets centralizados
-├── database/
-│   └── data.json               # Armazenamento local dos usuários cadastrados
-├── services/
-│   ├── database_svc.py         # Leitura/escrita dos dados de usuário
-│   ├── login_page_svc.py       # Lógica de login, "esqueci senha" e login social
-│   └── register_page_svc.py    # Lógica de cadastro e validações
-├── views/
-│   ├── screen.py                # Janela principal e transição entre telas
-│   ├── login_page_vws.py        # Interface da tela de login
-│   ├── register_page_vws.py     # Interface da tela de cadastro
-│   └── messagebox_page_vws.py   # Message box customizada
-└── assets/
-    └── images/                  # Logos, ícone e imagens da interface
+Login_System_v2.1a/
+├── main.py                        # Ponto de entrada da aplicação
+└── src/
+    ├── config/
+    │   └── paths.py                # Caminhos de assets centralizados
+    ├── database/
+    │   └── data.json               # Armazenamento local dos usuários cadastrados
+    ├── services/
+    │   ├── database_svc.py         # Leitura/escrita dos dados de usuário
+    │   ├── login_page_svc.py       # Lógica de login, "esqueci senha" e login social
+    │   └── register_page_svc.py    # Lógica de cadastro e validações
+    ├── views/
+    │   ├── screen.py                # Janela principal e transição entre telas
+    │   ├── login_page_vws.py        # Interface da tela de login
+    │   ├── register_page_vws.py     # Interface da tela de cadastro
+    │   └── messagebox_page_vws.py   # Message box customizada
+    └── assets/
+        └── images/                  # Logos, ícone e imagens da interface
 ```
 
 ## ▶️ Como executar
 
 1. Clone o repositório
    ```bash
-   git clone <url-do-repositorio>
-   cd "Sistema de Login [Moderno + Atualizado]/src"
+   git clone https://github.com/LaelTrindade/Login_System_v2.1a.git
+   cd Login_System_v2.1a
    ```
 
 2. Instale as dependências
@@ -59,6 +60,10 @@ src/
    ```bash
    python main.py
    ```
+
+> **Requisito:** Python 3 instalado.
+> **Windows:** se `python` não funcionar, tente `py main.py`.
+> **Linux:** se der erro de `tkinter`, instale com `sudo apt install python3-tk`.
 
 ## ⚠️ Estado atual e limitações conhecidas
 
@@ -74,6 +79,6 @@ src/
 - Integração real com OAuth do Google/Facebook
 - Migração da persistência de JSON para um banco de dados relacional (SQLite, por exemplo)
 
-## 👤 Autor
+## 👤 Autoria
 
-Desenvolvido por Lael.
+Projeto desenvolvido por **Lael Trindade**.
