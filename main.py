@@ -1,6 +1,7 @@
-from views.screen import login_screen
+from src.views.screen import login_screen
 
 def main():
+    
     login_screen()
 
 

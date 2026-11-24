@@ -1,4 +1,4 @@
-# Sistema de Login Moderno
+# Login System [v2.1a]
 
 Sistema de autenticação desktop com interface moderna, desenvolvido em Python com CustomTkinter. Conta com telas de login e cadastro, persistência local de usuários e feedback visual customizado (sem os message boxes padrão do Tkinter).
 

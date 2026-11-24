@@ -1,6 +1,6 @@
 import os
 import json
-from config.paths import BASE_DIR
+from src.config.paths import BASE_DIR
 
 PATH = BASE_DIR/'database'/'data.json'
 

@@ -1,6 +1,6 @@
 from tkinter import messagebox
-from services.database_svc import salvar_dados, carregar_dados
-from views.messagebox_page_vws import show_message_box
+from src.services.database_svc import salvar_dados, carregar_dados
+from src.views.messagebox_page_vws import show_message_box
 
 
 def cadastrar_usuario(frame):

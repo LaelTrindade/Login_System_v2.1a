@@ -1,10 +1,10 @@
 import customtkinter as ctk
 from PIL import Image, ImageTk
-from config.paths import ASSETS_IMAGES
-from views.login_page_vws import login_frame
-from views.register_page_vws import register_frame
-from services.register_page_svc import cadastrar_usuario
-from services.login_page_svc import realizar_login, logar_com_google, logar_com_facebook, esqueci_minha_senha
+from src.config.paths import ASSETS_IMAGES
+from src.views.login_page_vws import login_frame
+from src.views.register_page_vws import register_frame
+from src.services.register_page_svc import cadastrar_usuario
+from src.services.login_page_svc import realizar_login, logar_com_google, logar_com_facebook, esqueci_minha_senha
 
 
 def login_screen():
